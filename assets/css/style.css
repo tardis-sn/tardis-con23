@@ -482,7 +482,7 @@ p {
   /* .navbar-area.sticky {
     position: fixed;
     z-index: 999; } */
-    .navbar-area.sticky::before {
+  .navbar-area.sticky::before {
       opacity: 1; }
   .navbar-area .navbar {
     position: relative;
@@ -592,18 +592,25 @@ p {
 /*===== Header =====*/
 .header-content-area {
   height: 750px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   position: relative;
   overflow: hidden; }
   @media only screen and (min-width: 1400px) {
     .header-content-area {
-      height: 850px; } }
+      height: 850px;
+     } }
   @media (max-width: 767px) {
     .header-content-area {
       height: 650px; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-content-area {
+      padding-top: 100px;
       height: 550px; } }
   .header-content-area::before {
     position: absolute;
