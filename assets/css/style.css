@@ -700,6 +700,12 @@ p {
       .header-countdown .single-count-content .text {
         font-size: 18px;
         margin-top: 0; } }
+    @media (max-width: 338px) {
+      .header-countdown .single-count-content {
+        padding-top: 5rem;
+        /* Add padding top for countdown */
+      }
+    }
   .header-countdown .single-count-content.count-color-1 .count,
   .header-countdown .single-count-content.count-color-1 .text {
     color: #ee163a; }
