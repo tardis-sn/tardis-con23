@@ -934,8 +934,8 @@ p {
   box-shadow: 0px 8px 16px 0px rgba(72, 127, 255, 0.1);
   background-color: #fff;
   padding: 45px 20px;
-  height: 90%;
-  overflow: auto;
+  height: 95%;
+  overflow: hidden;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   position: relative;
