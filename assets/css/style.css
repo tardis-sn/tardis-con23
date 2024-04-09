@@ -589,7 +589,17 @@ p {
       background-color: #fff;
       color: #1863ff; }
 
+    @media (max-width: 450px) {
+      .navbar-area img {
+        height: 60px;
+        /* Reduce height of image */
+        object-fit: scale-down;
+        /* Maintain aspect ratio */
+      }
+    }
+
 /*===== Header =====*/
+
 .header-content-area {
   height: 750px;
   display: flex;
